@@ -1,2 +1,2 @@
 # furrward
-Go furrward! It's a adoptiom prototype project that conect adopters to pet. 
+Go furrward! It's a adoption prototype project that connect adopters to pet.
