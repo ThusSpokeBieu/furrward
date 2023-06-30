@@ -1,0 +1,13 @@
+version: '3.8'
+services:
+  furrward-db:
+    image: postgres:latest
+    container_name: postgresdb
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_DB: furrward
+      POSTGRES_USER: furrward_user
+      POSTGRES_PASSWORD: furrward_password
+    volumes:
+      - ./data:/var/lib/postgresql/data
